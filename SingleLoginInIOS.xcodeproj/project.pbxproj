@@ -13,12 +13,10 @@
 		B84092E61718142C009C5A02 /* NBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B84092DD1718142C009C5A02 /* NBAppDelegate.m */; };
 		B84092E71718142C009C5A02 /* NBSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B84092E01718142C009C5A02 /* NBSessionViewController.m */; };
 		B84092E81718142C009C5A02 /* NBSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84092E11718142C009C5A02 /* NBSessionViewController.xib */; };
-		B84092EA1718142C009C5A02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B84092E51718142C009C5A02 /* ViewController.m */; };
 		B84092F5171814E7009C5A02 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B84092EB171814E7009C5A02 /* Default-568h@2x.png */; };
 		B84092F6171814E7009C5A02 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B84092EC171814E7009C5A02 /* Default.png */; };
 		B84092F7171814E7009C5A02 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B84092ED171814E7009C5A02 /* Default@2x.png */; };
 		B84092F8171814E7009C5A02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B84092EF171814E7009C5A02 /* InfoPlist.strings */; };
-		B84092F9171814E7009C5A02 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84092F1171814E7009C5A02 /* ViewController.xib */; };
 		B84092FA171814E7009C5A02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B84092F3171814E7009C5A02 /* main.m */; };
 		B84092FD1718150A009C5A02 /* login-button-small-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = B84092FB1718150A009C5A02 /* login-button-small-pressed.png */; };
 		B84092FE1718150A009C5A02 /* login-button-small-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B84092FC1718150A009C5A02 /* login-button-small-pressed@2x.png */; };
@@ -69,6 +67,8 @@
 		B840954617181B5A009C5A02 /* OpenInChromeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B840951317181B59009C5A02 /* OpenInChromeController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B840954B17181C6F009C5A02 /* libGooglePlus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B840954917181C6F009C5A02 /* libGooglePlus.a */; };
 		B840954C17181C6F009C5A02 /* libGooglePlusUniversal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B840954A17181C6F009C5A02 /* libGooglePlusUniversal.a */; };
+		B8C9F74D171C266A00A994A6 /* NBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8C9F74C171C266A00A994A6 /* NBViewController.xib */; };
+		B8C9F74F171C2B4000A994A6 /* NBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C9F74E171C2B4000A994A6 /* NBViewController.m */; };
 		B8D243F6171533800087B911 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D243F5171533800087B911 /* UIKit.framework */; };
 		B8D243F8171533800087B911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D243F7171533800087B911 /* Foundation.framework */; };
 		B8D243FA171533800087B911 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D243F9171533800087B911 /* CoreGraphics.framework */; };
@@ -89,12 +89,10 @@
 		B84092E11718142C009C5A02 /* NBSessionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NBSessionViewController.xib; path = SingleLoginInIOS/NBSessionViewController.xib; sourceTree = SOURCE_ROOT; };
 		B84092E21718142C009C5A02 /* SingleLoginInIOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SingleLoginInIOS-Info.plist"; path = "SingleLoginInIOS/SingleLoginInIOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B84092E41718142C009C5A02 /* NBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NBViewController.h; path = SingleLoginInIOS/NBViewController.h; sourceTree = SOURCE_ROOT; };
-		B84092E51718142C009C5A02 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = SingleLoginInIOS/ViewController.m; sourceTree = SOURCE_ROOT; };
 		B84092EB171814E7009C5A02 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "SingleLoginInIOS/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 		B84092EC171814E7009C5A02 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = SingleLoginInIOS/Default.png; sourceTree = SOURCE_ROOT; };
 		B84092ED171814E7009C5A02 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "SingleLoginInIOS/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		B84092F0171814E7009C5A02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		B84092F2171814E7009C5A02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ViewController.xib; sourceTree = "<group>"; };
 		B84092F3171814E7009C5A02 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SingleLoginInIOS/main.m; sourceTree = SOURCE_ROOT; };
 		B84092F4171814E7009C5A02 /* SingleLoginInIOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SingleLoginInIOS-Prefix.pch"; path = "SingleLoginInIOS/SingleLoginInIOS-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		B84092FB1718150A009C5A02 /* login-button-small-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login-button-small-pressed.png"; path = "SingleLoginInIOS/Facebook/login-button-small-pressed.png"; sourceTree = SOURCE_ROOT; };
@@ -201,6 +199,8 @@
 		B840951917181B59009C5A02 /* GPPURLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPURLHandler.h; sourceTree = "<group>"; };
 		B840954917181C6F009C5A02 /* libGooglePlus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGooglePlus.a; sourceTree = "<group>"; };
 		B840954A17181C6F009C5A02 /* libGooglePlusUniversal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGooglePlusUniversal.a; sourceTree = "<group>"; };
+		B8C9F74C171C266A00A994A6 /* NBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBViewController.xib; sourceTree = "<group>"; };
+		B8C9F74E171C2B4000A994A6 /* NBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBViewController.m; sourceTree = "<group>"; };
 		B8D243F2171533800087B911 /* SingleLoginInIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleLoginInIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D243F5171533800087B911 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B8D243F7171533800087B911 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -249,7 +249,6 @@
 			isa = PBXGroup;
 			children = (
 				B84092EF171814E7009C5A02 /* InfoPlist.strings */,
-				B84092F1171814E7009C5A02 /* ViewController.xib */,
 			);
 			name = en.lproj;
 			path = SingleLoginInIOS/en.lproj;
@@ -430,7 +429,8 @@
 				B84092E01718142C009C5A02 /* NBSessionViewController.m */,
 				B84092E11718142C009C5A02 /* NBSessionViewController.xib */,
 				B84092E41718142C009C5A02 /* NBViewController.h */,
-				B84092E51718142C009C5A02 /* ViewController.m */,
+				B8C9F74E171C2B4000A994A6 /* NBViewController.m */,
+				B8C9F74C171C266A00A994A6 /* NBViewController.xib */,
 				B8D243FC171533800087B911 /* Supporting Files */,
 			);
 			path = SingleLoginInIOS;
@@ -511,12 +511,12 @@
 				B84092F6171814E7009C5A02 /* Default.png in Resources */,
 				B84092F7171814E7009C5A02 /* Default@2x.png in Resources */,
 				B84092F8171814E7009C5A02 /* InfoPlist.strings in Resources */,
-				B84092F9171814E7009C5A02 /* ViewController.xib in Resources */,
 				B84092FD1718150A009C5A02 /* login-button-small-pressed.png in Resources */,
 				B84092FE1718150A009C5A02 /* login-button-small-pressed@2x.png in Resources */,
 				B840930117181517009C5A02 /* gpp_sign_in_dark_button_normal.png in Resources */,
 				B840930217181517009C5A02 /* gpp_sign_in_dark_button_normal@2x.png in Resources */,
 				B840954217181B5A009C5A02 /* GTMOAuth2ViewTouch.xib in Resources */,
+				B8C9F74D171C266A00A994A6 /* NBViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,7 +529,6 @@
 			files = (
 				B84092E61718142C009C5A02 /* NBAppDelegate.m in Sources */,
 				B84092E71718142C009C5A02 /* NBSessionViewController.m in Sources */,
-				B84092EA1718142C009C5A02 /* ViewController.m in Sources */,
 				B84092FA171814E7009C5A02 /* main.m in Sources */,
 				B840951C17181B59009C5A02 /* GTLBase64.m in Sources */,
 				B840951D17181B59009C5A02 /* GTLBatchQuery.m in Sources */,
@@ -571,6 +570,7 @@
 				B840954117181B5A009C5A02 /* GTMOAuth2ViewControllerTouch.m in Sources */,
 				B840954317181B5A009C5A02 /* GTMObjC2Runtime.m in Sources */,
 				B840954617181B5A009C5A02 /* OpenInChromeController.m in Sources */,
+				B8C9F74F171C2B4000A994A6 /* NBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,14 +583,6 @@
 				B84092F0171814E7009C5A02 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B84092F1171814E7009C5A02 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B84092F2171814E7009C5A02 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
