@@ -65,8 +65,6 @@
 		B840954417181B5A009C5A02 /* libGooglePlus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B840951017181B59009C5A02 /* libGooglePlus.a */; };
 		B840954517181B5A009C5A02 /* libGooglePlusUniversal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B840951117181B59009C5A02 /* libGooglePlusUniversal.a */; };
 		B840954617181B5A009C5A02 /* OpenInChromeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B840951317181B59009C5A02 /* OpenInChromeController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B840954B17181C6F009C5A02 /* libGooglePlus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B840954917181C6F009C5A02 /* libGooglePlus.a */; };
-		B840954C17181C6F009C5A02 /* libGooglePlusUniversal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B840954A17181C6F009C5A02 /* libGooglePlusUniversal.a */; };
 		B8C9F74D171C266A00A994A6 /* NBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8C9F74C171C266A00A994A6 /* NBViewController.xib */; };
 		B8C9F74F171C2B4000A994A6 /* NBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C9F74E171C2B4000A994A6 /* NBViewController.m */; };
 		B8D243F6171533800087B911 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D243F5171533800087B911 /* UIKit.framework */; };
@@ -227,8 +225,6 @@
 				B840924B171813C1009C5A02 /* FacebookSDK.framework in Frameworks */,
 				B840954417181B5A009C5A02 /* libGooglePlus.a in Frameworks */,
 				B840954517181B5A009C5A02 /* libGooglePlusUniversal.a in Frameworks */,
-				B840954B17181C6F009C5A02 /* libGooglePlus.a in Frameworks */,
-				B840954C17181C6F009C5A02 /* libGooglePlusUniversal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
